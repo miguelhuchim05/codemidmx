@@ -1,0 +1,475 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.collapse{
+    top: 0;
+    z-index: 1020;
+}
+.carousel-item{
+    /* border: 1px red solid; */
+    max-height: 600px;
+    overflow: hidden;
+}
+.one .service{
+    /* border:1px red solid; */
+    width: 50%;
+}
+.two .service{
+    /* border:1px red solid; */
+    width: 30%;
+}
+.navbar{
+    background-color: #A7CFD0;
+}
+.nav-link, .navbar-toggler{
+    font-weight: bold;
+    color: #2D5268;
+}
+.contenelogo{
+    width: 65%;
+}
+figure{
+    /* border:1px red solid; */
+    margin:0px;
+    padding: 0px;
+}
+.logo{
+    max-width: 160px;
+}
+img{
+    /* border:1px blue solid; */
+    width: 100%;
+}
+.icon {
+    color: #343A40;
+}
+.info{
+    /* border:1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: auto;
+}
+.info p, .info i{
+    /* border:1px green solid; */
+    padding: 5px;  
+    margin-bottom: 0%;  
+}
+.infos{
+    width: 80%;
+    flex-wrap: wrap;
+}
+.preheader{
+    display: flex;
+    padding-left: 10px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials .icon{
+    /* border: 1px green solid;  */
+    width: 35px;
+    height: 35px;
+    background-color: cadetblue;
+    margin: 2px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.socials .icon:hover{
+    color: #343A40;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.nav-link:focus{
+    text-decoration: underline;
+}
+.codemid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.codemid div{
+    
+    width: 50%;
+    padding: 0px 40px;
+}
+.codemid div p{
+    text-align: justify;
+}
+.citas{
+    background-image: url("../img/bg-agenda.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.carousel-caption {
+    padding: 5%;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    left: 0%;
+    z-index: 10;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    
+    bottom: 20%;
+}
+.carousel-control-next, .carousel-control-prev{
+    z-index: 11;
+    
+}
+.person{
+    padding: 5px 15px;
+    border-top: 1px #343A40 solid;
+    border-left:1px #343A40 solid;
+    width: 300px;
+    /* box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75); */
+    box-shadow: 6px 3px 4px 2px rgba(0,0,0,0.75);
+}
+.person figure{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.person figcaption h3{
+    text-align: center;
+}
+.person p{
+    margin: 0;
+    padding:0;
+}
+.responsive{
+    /* border:1px red solid; */
+    position: relative;
+    height: 50px;
+    width: 70px;
+}
+.res1{
+    /* border: 1px blue solid; */
+    position: absolute;
+    left: 0;
+    top:0;
+    color: orangered;
+    background-color: white;
+}
+.res2{
+    /* border: 1px blue solid; */
+    position: absolute;
+    left: 35px;
+    top:  16px;
+    color: aquamarine;
+    background-color: white;
+}
+.res3{
+    /* border: 1px blue solid; */
+    position: absolute;
+    left: 56px;
+    top:31px;
+    color: burlywood;
+    background-color: white;
+}
+.service{
+    /* width: 20%; */
+    padding: 2rem;
+}
+.service p{
+    text-align: center;
+}
+.subir {
+    padding:10px;
+	display:inline-block;
+	color:#000;
+	position: fixed;
+	font-size:20px;
+	bottom:20px;
+	right:20px;
+	display:none;
+}
+/* footer */
+footer{
+    padding: 20px;
+    background-color: #A7CFD0;
+    color: #2D5268;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+footer .foo{
+    width: 50%;
+    padding-right: 10px;
+}
+
+.foo1 p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-family: 'Blinker', sans-serif;
+    padding-right: 15px;
+}
+.foo1 p i{
+    margin-right: 10px;
+    width: 30px;
+}
+.foo2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+.foo2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #2D5268 solid;
+
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 50%;
+}
+.foo2 div:hover{
+    background-color: #2D5268;
+}
+.foo2 div:hover > a i{
+    color: #A7CFD0; 
+}
+.foo div i{
+    color: #2D5268;
+}
+.foo textarea{
+    resize: none;
+}
+.foo form{
+    display: flex;
+    flex-direction: column;
+}
+.foo .inputs input, .foo textarea{
+    color:#2D5268;
+    border:none;
+    background-color: transparent;
+    border-left: 2px white solid;
+    border-bottom: 2px#fff solid;
+    margin:20px 20px 20px 0px;
+    padding: 15px 0px 15px 15px;
+    font-size: 16px;
+    box-shadow: -2px 2px 2px;
+    font-family: 'Blinker', sans-serif;
+}
+::placeholder { color: #2D5268; }
+#botonsend{
+    padding: 15px 15px;
+    width: 25%;
+    color:rgb(43, 42, 42);
+    font-weight: bold;
+    font-size: 16px;
+}
+@media screen and (max-width: 918px){
+    .one .service{
+        /* border:1px red solid; */
+        width: 100%;
+    }
+    .two .service{
+        /* border:1px red solid; */
+        width: 100%;
+    }
+}
+@media screen and (max-width: 590px) {
+    
+    .info{
+        width: 100%;
+        justify-content: flex-start;
+    }    
+    .codemid div{
+        
+        width: 100%;
+    }
+    .nos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .person{
+        padding: 5px 15px;
+        width: 100%;
+    }
+    .service{
+        width: 100%;
+    }
+    footer{
+        flex-wrap: wrap-reverse;
+    }
+    footer .foo {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .one .service{
+        /* border:1px red solid; */
+        width: 100%;
+    }
+    .two .service{
+        /* border:1px red solid; */
+        width: 100%;
+    }
+}
+
+/* ________ */
+
+a {
+	text-decoration: none;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+/* ------------------------- */
+/* HEADER */
+/* ------------------------- */
+
+.bus {
+	padding: 40px 0;
+}
+
+.bus form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.bus .barra-busqueda {
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	background: #A7CFD0;
+	padding: 0 20px;
+	border-radius: 100px;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.bus .categorias {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.bus .categorias a {
+	color: #9B9B9B;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.bus .categorias a.activo {
+	color: #000;
+}
+
+/* ------------------------- */
+/* Grid */
+/* ------------------------- */
+
+.grid {
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.5s linear 1s;
+}
+
+.grid.imagenes-cargadas {
+	opacity: 1;
+}
+
+.grid .item {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 10px;
+	width: calc(33.333333% - 20px);
+}
+
+.grid .item-contenido {
+	position: relative;
+}
+
+.grid .item img {
+	width: 100%;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+/* ------------------------- */
+/* Overlay */
+/* ------------------------- */
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.9);
+	width: 100%;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.overlay.activo {
+	display: flex;
+}
+
+.overlay img {
+	max-width: 100%;
+}
+
+.overlay .descripcion {
+	display: block;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 10px;
+	max-width: 50%;
+}
+
+.contenedor-img {
+	position: relative;
+}
+
+.overlay #btn-cerrar-popup {
+	background: none;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 2%;
+	top: 2%;
+}
+
+/* ------------------------- */
+/* Mediaqueries */
+/* ------------------------- */
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	.bus .barra-busqueda {
+		width: 100%;
+	}
+}
